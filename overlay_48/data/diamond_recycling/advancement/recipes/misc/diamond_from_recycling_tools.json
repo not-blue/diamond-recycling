@@ -7,12 +7,14 @@
         "recipe": "diamond_recycling:recycle_tools_to_diamonds"
       }
     },
-    "has_diamond": {
+    "has_diamond_tool": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond"
+            "items": [
+              "#diamond_recycling:recyclable_diamond_tools"
+            ]
           }
         ]
       }
@@ -21,12 +23,11 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_diamond"
+      "has_diamond_tool"
     ]
   ],
   "rewards": {
     "recipes": [
-      "diamond_recycling:recycle_armor_and_trims_to_diamonds",
       "diamond_recycling:recycle_tools_to_diamonds"
     ]
   }

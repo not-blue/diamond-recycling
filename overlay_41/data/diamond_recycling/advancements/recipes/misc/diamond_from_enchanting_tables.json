@@ -4,18 +4,16 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "diamond_recycling:recycle_tools_to_diamonds"
+        "recipe": "diamond_recycling:diamond_from_enchanting_tables"
       }
     },
-    "has_diamond_tool": {
+    "has_enchanting_table": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              {
-                "tag": "diamond_recycling:recyclable_diamond_tools"
-              }
+              "minecraft:enchanting_table"
             ]
           }
         ]
@@ -25,12 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_diamond_tool"
+      "has_enchanting_table"
     ]
   ],
   "rewards": {
     "recipes": [
-      "diamond_recycling:recycle_tools_to_diamonds"
+      "diamond_recycling:diamond_from_enchanting_tables"
     ]
   }
 }

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": "minecraft:jukebox",
+    "result": {
+      "id": "minecraft:diamond"
+    },
+    "experience": 3,
+    "cookingtime": 200
+  }

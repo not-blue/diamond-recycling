@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "diamond_recycling:diamond_from_enchanting_tables"
+        }
+      },
+      "has_enchanting_table": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:enchanting_table"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_enchanting_table"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "diamond_recycling:diamond_from_enchanting_tables"
+      ]
+    }
+  }

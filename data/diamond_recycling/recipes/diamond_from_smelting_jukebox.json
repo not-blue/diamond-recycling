@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:smelting",
+    "group": "recyclable_diamonds",
+    "category": "misc",
+    "ingredient": {
+      "item": "minecraft:jukebox"
+    },
+    "result": "minecraft:diamond",
+    "experience": 3,
+    "cookingtime": 200
+  }

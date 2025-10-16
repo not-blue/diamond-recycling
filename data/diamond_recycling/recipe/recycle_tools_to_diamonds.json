@@ -8,9 +8,7 @@
     "xxx"
   ],
   "key": {
-    "x": {
-      "tag": "diamond_recycling:recyclable_diamond_tools"
-    }
+    "x": "#diamond_recycling:recyclable_diamond_tools"
   },
   "result": {
     "id": "minecraft:diamond"

@@ -7,9 +7,7 @@
     "aa"
   ],
   "key": {
-    "a": {
-      "tag": "diamond_recycling:recyclable_diamond_armor"
-    }
+    "a": "#diamond_recycling:recyclable_diamond_armor"
   },
   "result": {
     "id": "minecraft:diamond"

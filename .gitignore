@@ -398,3 +398,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Minecraft Data Pack Build Artifacts
+build/
+temp_build/
+example/
+*.jar
+*.zip

@@ -1,6 +1,8 @@
 # Diamond Recycling
 
-Recycle old diamond tools and armor and excess smithing templates into diamonds. To keep it balanced, you need seven diamond tools or four smithing templates/armor pieces for each diamond.
+_For Minecraft 1.20-1.20.6._
+
+Recycle old diamond tools and armor and excess smithing templates into diamonds. To keep it balanced, you need seven diamond tools or four smithing templates/armor pieces for each diamond. You can also recycle two diamond horse armor, two enchanting tables and two jukeboxes into one diamond.
 
 
 ## License

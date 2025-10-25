@@ -12,11 +12,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              {
-                "tag": "diamond_recycling:recyclable_diamond_tools"
-              }
-            ]
+            "items": "#diamond_recycling:recyclable_diamond_tools"
           }
         ]
       }

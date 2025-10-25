@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "recyclable_diamonds",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond_horse_armor"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond"
+  }
+}

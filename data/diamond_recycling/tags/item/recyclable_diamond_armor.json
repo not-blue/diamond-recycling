@@ -13,10 +13,6 @@
       "required": false
     },
     {
-      "id": "minecraft:diamond_horse_armor",
-      "required": false
-    },
-    {
       "id": "minecraft:diamond_leggings",
       "required": false
     },

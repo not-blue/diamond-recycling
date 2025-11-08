@@ -4,15 +4,15 @@
       "has_the_recipe": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "diamond_recycling:diamond_from_diamond_horse_armor"
+          "recipe": "diamond_recycling:diamond_from_diamond_mount_armor"
         }
       },
-      "has_diamond_horse_armor": {
+      "has_diamond_mount_armor": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
-              "items": "minecraft:diamond_horse_armor"
+              "items": "#minecraft:diamond_mount_armor"
             }
           ]
         }
@@ -21,12 +21,12 @@
     "requirements": [
       [
         "has_the_recipe",
-        "has_diamond_horse_armor"
+        "has_diamond_mount_armor"
       ]
     ],
     "rewards": {
       "recipes": [
-        "diamond_recycling:diamond_from_diamond_horse_armor"
+        "diamond_recycling:diamond_from_diamond_mount_armor"
       ]
     }
   }

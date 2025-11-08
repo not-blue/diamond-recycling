@@ -1,7 +1,16 @@
 {
   "pack": {
     "min_format": [88,0],
-    "max_format": [88,0],
+    "max_format": [999,0],
     "description": "Recycle armor trims, diamond tools and diamond armor into diamonds. For 1.21+."
-  }
+  },
+	"overlays": {
+		"entries": [
+			{
+				"min_format": [89, 0],
+				"max_format": [999, 0],
+				"directory": "overlay_snapshot"
+      }
+		]
+	}
 }

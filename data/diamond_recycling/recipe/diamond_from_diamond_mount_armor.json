@@ -6,9 +6,7 @@
       "a"
     ],
     "key": {
-      "a": [
-        "minecraft:diamond_horse_armor"
-      ]
+      "a": "#minecraft:diamond_mount_armor"
     },
     "result": {
       "id": "minecraft:diamond"

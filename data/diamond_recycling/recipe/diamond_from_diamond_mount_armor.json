@@ -6,7 +6,7 @@
       "a"
     ],
     "key": {
-      "a": "#minecraft:diamond_mount_armor"
+      "a": "#diamond_recycling:diamond_mount_armor"
     },
     "result": {
       "id": "minecraft:diamond"

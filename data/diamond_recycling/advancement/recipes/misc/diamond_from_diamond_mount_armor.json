@@ -12,7 +12,7 @@
         "conditions": {
           "items": [
             {
-              "items": "#minecraft:diamond_mount_armor"
+              "items": "#diamond_recycling:diamond_mount_armor"
             }
           ]
         }

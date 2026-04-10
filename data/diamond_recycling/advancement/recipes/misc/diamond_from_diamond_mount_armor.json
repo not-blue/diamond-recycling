@@ -12,7 +12,7 @@
         "conditions": {
           "items": [
             {
-              "items": "#diamond_recycling:diamond_mount_armor"
+              "items": "#diamond_recycling:recyclable_diamond_mount_armor"
             }
           ]
         }

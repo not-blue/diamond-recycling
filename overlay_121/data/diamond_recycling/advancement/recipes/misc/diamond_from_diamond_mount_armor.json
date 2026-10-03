@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipes": "diamond_recycling:diamond_from_diamond_mount_armor"
+        }
+      },
+      "has_diamond_mount_armor": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "#diamond_recycling:recyclable_diamond_mount_armor"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_diamond_mount_armor"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "diamond_recycling:diamond_from_diamond_mount_armor"
+      ]
+    }
+  }
